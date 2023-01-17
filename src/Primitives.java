@@ -9,7 +9,7 @@ public class Primitives {
         boolean love = true;
         char x = 'X';
         System.out.println("Hole from Bublik is " + a);
-        System.out.println(b + " blondy and seven black friends");
+        System.out.println(b + " blondie and seven black friends");
         System.out.println("You can always make easy money, if you have at least " + c + " kidneys");
         System.out.println("The perfect number of drinking buddies is " + d);
         System.out.println("Most people do not know that exp equals " + e + ", actually they don't even care");
