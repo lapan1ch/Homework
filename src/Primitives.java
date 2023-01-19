@@ -6,15 +6,15 @@ public class Primitives {
         long d = 3;
         float e = 2.718f;
         double pi = 3.14;
-        boolean love = true;
+        boolean loveIs = true;
         char x = 'X';
         System.out.println("Hole from Bublik is " + a);
         System.out.println(b + " blondie and seven black friends");
         System.out.println("You can always make easy money, if you have at least " + c + " kidneys");
         System.out.println("The perfect number of drinking buddies is " + d);
         System.out.println("Most people do not know that exp equals " + e + ", to be honest, they don't even care");
-        System.out.println(pi + "vo makes you piss 'KRIVO'");
-        System.out.println(love + " to the end");
+        System.out.println("Drink " + pi + "vo to " + pi + "ss 'KRIVO'");
+        System.out.println(loveIs + " to the end");
         System.out.println("Everybody's favourite shop, is a triple " + x + " shop");
     }
 }
