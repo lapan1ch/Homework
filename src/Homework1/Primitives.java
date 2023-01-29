@@ -1,3 +1,5 @@
+package Homework1;
+
 public class Primitives {
     public static void main(String[] args) {
         byte a = 0;
