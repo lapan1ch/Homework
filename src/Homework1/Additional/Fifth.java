@@ -1,16 +1,13 @@
 package Homework1.Additional;
-
-import java.util.Scanner;
-
 public class Fifth {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        InputForAllTasks inputForAllTasks = new InputForAllTasks();
         System.out.println("Enter first integer number");
-        short a = scanner.nextShort();
+        short a = inputForAllTasks.aShortNumber();
         System.out.println("Enter second integer number");
-        short b = scanner.nextShort();
+        short b = inputForAllTasks.aShortNumber();
         System.out.println("Enter third integer number");
-        short c = scanner.nextShort();
+        short c = inputForAllTasks.aShortNumber();
         float average = (a + b + c) / 3f;
         System.out.println("Average is " + average);
     }

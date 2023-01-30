@@ -1,13 +1,10 @@
 package Homework1.Additional;
-
-import java.util.Scanner;
-
 public class Third {
     public static void main(String[] args) {
         System.out.println("Test Data:");
         System.out.println("Input a number:");
-        Scanner scanner = new Scanner(System.in);
-        byte a = scanner.nextByte();
+        InputForAllTasks inputForAllTasks = new InputForAllTasks();
+        byte a = inputForAllTasks.aByteNumber();
         System.out.println("Expected output:");
         System.out.println(a + " x 1 =" + a);
         System.out.println(a + " x 2 =" + a*2);
