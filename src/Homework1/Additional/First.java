@@ -2,11 +2,11 @@ package Homework1.Additional;
 
 public class First {
     public static void main(String[] args){
-        InputForAllTasks inputForAllTasks = new InputForAllTasks();
+        InputForAllTasks input = new InputForAllTasks();
         System.out.println("Enter first number");
-        double a = inputForAllTasks.aDoubleNumber();
+        double a = input.aDoubleNumber();
         System.out.println("Enter second number");
-        double b = inputForAllTasks.aDoubleNumber();
+        double b = input.aDoubleNumber();
         double add = a + b;
         double sub = a - b;
         double mul = a * b;

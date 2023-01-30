@@ -1,9 +1,9 @@
 package Homework1.Additional;
 public class Second {
     public static void main(String[] args) {
-        InputForAllTasks inputForAllTasks = new InputForAllTasks();
+        InputForAllTasks input = new InputForAllTasks();
         System.out.println("Enter your full name");
-        String fullName = inputForAllTasks.aText();
+        String fullName = input.aText();
         System.out.println("Hello, " + fullName + "!");
     }
 }

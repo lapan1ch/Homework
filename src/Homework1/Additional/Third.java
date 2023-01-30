@@ -3,8 +3,8 @@ public class Third {
     public static void main(String[] args) {
         System.out.println("Test Data:");
         System.out.println("Input a number:");
-        InputForAllTasks inputForAllTasks = new InputForAllTasks();
-        byte a = inputForAllTasks.aByteNumber();
+        InputForAllTasks input = new InputForAllTasks();
+        byte a = input.aByteNumber();
         System.out.println("Expected output:");
         System.out.println(a + " x 1 =" + a);
         System.out.println(a + " x 2 =" + a*2);
