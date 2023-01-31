@@ -1,4 +1,5 @@
-package Homework1.Additional;
+package AdditionalHomework.Lesson1;
+
 import java.util.Scanner;
 public class InputForAllTasks {
     Scanner scanner = new Scanner(System.in);

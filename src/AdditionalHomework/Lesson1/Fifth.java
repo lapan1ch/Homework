@@ -1,4 +1,5 @@
-package Homework1.Additional;
+package AdditionalHomework.Lesson1;
+
 public class Fifth {
     public static void main(String[] args) {
         InputForAllTasks input = new InputForAllTasks();

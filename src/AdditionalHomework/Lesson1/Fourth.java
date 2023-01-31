@@ -1,4 +1,5 @@
-package Homework1.Additional;
+package AdditionalHomework.Lesson1;
+
 public class Fourth {
     public static void main(String[] args) {
         System.out.println("Test Data:");
