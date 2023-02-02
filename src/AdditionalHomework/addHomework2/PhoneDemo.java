@@ -1,4 +1,4 @@
-package AdditionalHomework.Lesson3;
+package AdditionalHomework.addHomework2;
 
 public class PhoneDemo {
     public static void main(String[] args) {

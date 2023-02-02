@@ -1,8 +1,8 @@
-package AdditionalHomework.Lesson3;
+package AdditionalHomework.addHomework2;
 
-public class Car {
+public class Phone {
     String model;
-    public Car(String newModel) {
+    public Phone(String newModel) {
         this.model = newModel;
     }
     public String getModel() {

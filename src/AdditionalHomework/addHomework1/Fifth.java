@@ -1,4 +1,4 @@
-package AdditionalHomework.Lesson1;
+package AdditionalHomework.addHomework1;
 
 public class Fifth {
     public static void main(String[] args) {

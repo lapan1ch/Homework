@@ -1,4 +1,4 @@
-package AdditionalHomework.Lesson1;
+package AdditionalHomework.addHomework1;
 
 import java.util.Scanner;
 public class InputForAllTasks {
