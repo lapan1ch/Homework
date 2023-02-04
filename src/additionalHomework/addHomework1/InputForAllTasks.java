@@ -1,8 +1,9 @@
 package additionalHomework.addHomework1;
 
 import java.util.Scanner;
-class InputForAllTasks {
-    final Scanner scanner = new Scanner(System.in);
+
+public class InputForAllTasks {
+    Scanner scanner = new Scanner(System.in);
     double aDoubleNumber() {
         return scanner.nextDouble();
     }
