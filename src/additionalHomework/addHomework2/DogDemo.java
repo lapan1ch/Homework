@@ -9,7 +9,7 @@ class DogDemo {
         dog.happyBirthday();
         System.out.println("- Happy Birthday, old pal!");
         dog.voice();
-        System.out.println("Checked my calendar, it was saying - " + dog.newAge + " years");
+        System.out.println("Checked my calendar, it was saying - " + dog.age + " years");
         dog.changeColor("Red");
         System.out.println(dog.color + " dog was staring at me...");
     }

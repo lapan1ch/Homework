@@ -4,10 +4,9 @@ class Dog {
     String nickName;
     byte age;
     String color;
-    byte newAge;
     public void happyBirthday() {
-        newAge = (byte) (age + 1);
-        System.out.println("Dog barked " + newAge + " times");
+        age = (byte) (age + 1);
+        System.out.println("Dog barked " + age + " times");
     }
     public Dog(String nickName, byte age, String color) {
         this.nickName = nickName;
