@@ -12,7 +12,8 @@ public class Dogggg {
 
     }
     public void happyBirthday() {
-        System.out.println("Dog is " + (age +1) + " years old");
+         age = age + 1;
+        System.out.println(" My dog is " + age  + " years old");
     }
 
 
