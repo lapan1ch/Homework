@@ -5,11 +5,8 @@ public class Dogggg {
 
     String color;
     int age;
-
-
     public  void voice() {
         System.out.println("Auuuu, auuuu, auuu");
-
     }
     public void happyBirthday() {
          age = age + 1;
