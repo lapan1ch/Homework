@@ -11,7 +11,7 @@ class LargerNumber {
         long secondNumber = scanner.nextLong();
         System.out.println("Enter third unique integer number");
         long thirdNumber = scanner.nextLong();
-        if (firstNumber - secondNumber == 0 || firstNumber - thirdNumber == 0 || secondNumber - thirdNumber == 0){
+        if (firstNumber == secondNumber || firstNumber == thirdNumber || secondNumber == thirdNumber){
             System.out.println("Numbers are not unique");
         } else if (firstNumber > secondNumber && firstNumber > thirdNumber) {
             System.out.println("Largest number is - '" + firstNumber +"'");
