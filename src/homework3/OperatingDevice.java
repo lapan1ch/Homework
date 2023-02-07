@@ -14,7 +14,7 @@ class OperatingDevice {
                 && secondFlaskTemperature < 100 && secondFlaskTemperature > 0) {
             device = true;
             System.out.println("Device is operating? - '" + device + "'");
-        } else if (firstFlaskTemperature > 1.417 * Math.pow(10,32) || secondFlaskTemperature <= 0) {
+        } else if (firstFlaskTemperature >   1.417 * Math.pow(10,32) || secondFlaskTemperature <= 0) {
             System.out.println("Congratulations! You have broken the universe");
         } else {
             device = false;
