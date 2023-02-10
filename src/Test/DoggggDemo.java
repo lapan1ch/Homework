@@ -9,11 +9,11 @@ public class DoggggDemo {
         dog1.happyBirthday();
         System.out.println("Happy birthday !");
         dog1.voice();
-        System.out.println("Сheck my calendar " + (dog1.age + 1) + " times");
+        System.out.println("Сheck my calendar " +  dog1.age  + " times");
         System.out.println("I'm looking for " + dog1.getName() + " him " + dog1.age + " years old " + "and he has a " + dog1.color + " color");
         dog1.voice();
         dog1.changeColor("Red");
-        System.out.println("My dog change his color, now it's " + dog1.color);
+        System.out.println("My dog сan change his color, now it's " + dog1.color);
         dog1.voice();
     }
 }
