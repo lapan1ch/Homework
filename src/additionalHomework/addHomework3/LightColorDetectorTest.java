@@ -1,6 +1,6 @@
 package additionalHomework.addHomework3;
 
-public class LightColorDetectorTest {
+class LightColorDetectorTest {
     public static void main(String[] args) {
         LightColorDetector lightColorDetector = new LightColorDetector();
         String expectedResult = new String("Red");

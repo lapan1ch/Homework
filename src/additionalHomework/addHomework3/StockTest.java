@@ -1,6 +1,6 @@
 package additionalHomework.addHomework3;
 
-public class StockTest {
+class StockTest {
     public static void main(String[] args) {
         Stock google = new Stock("GOOG",10);
         int[] currentPrice = new int[]{10, 12, 5, 7, 99, 77};

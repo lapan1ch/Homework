@@ -1,6 +1,6 @@
 package additionalHomework.addHomework3;
 
-public class Stock {
+class Stock {
     String company;
     int priceInformation;
     int minPrice;
@@ -8,11 +8,11 @@ public class Stock {
     int updatePrice(int newPrice){
         return newPrice;
     }
-    public Stock(String company, int priceInformation) {
+    Stock(String company, int priceInformation) {
         this.company = company;
         this.priceInformation = priceInformation;
     }
-    public int getPriceInformation() {
+    int getPriceInformation() {
         return priceInformation;
     }
 }
