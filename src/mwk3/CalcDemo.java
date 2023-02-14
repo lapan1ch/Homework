@@ -1,4 +1,4 @@
-package Hmwk3;
+package mwk3;
 
 public class CalcDemo {
     public static void main(String[] args) {

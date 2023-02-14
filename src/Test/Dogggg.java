@@ -1,8 +1,7 @@
 package Test;
 
 public class Dogggg {
-    String name;
-
+    private String name;
     String color;
     int age;
     public  void voice() {
@@ -14,7 +13,7 @@ public class Dogggg {
     }
 
 
-    public String getName() {
+     public String getName() {
         return name;
     }
 

@@ -12,7 +12,6 @@ public class Robott {
     }
 
     public Robott() {
-
     }
 
     public void sayYourName(){
@@ -23,6 +22,7 @@ public class Robott {
     public Robott(String robotName) {
         this.name = robotName;
     }
+
 
 
 }
