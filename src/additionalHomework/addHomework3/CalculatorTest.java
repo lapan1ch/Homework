@@ -38,7 +38,7 @@ class CalculatorTest {
         } else {
             System.out.println("Number is not even");
         }
-        double expectedMaxNumber = calculator.b;
+        double expectedMaxNumber = 2;
         double actualMaxNumber = calculator.compare();
         if (expectedMaxNumber == actualMaxNumber){
             System.out.println("Max number test = OK");

@@ -13,8 +13,8 @@ class FizzBuzzTest {
 //        }
 //      ВТОРОЙ ВАРИАНТ КОДА
         FizzBuzz fizzBuzz = new FizzBuzz();
-        String expectedResult = new String("FizzBuzz");
-        String actualResult = fizzBuzz.detect(60);
+        String expectedResult = new String("Fizz");
+        String actualResult = fizzBuzz.detect(9);
         if (expectedResult.equals(actualResult)){
             System.out.println("Test = OK");
         }else {

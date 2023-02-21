@@ -19,8 +19,10 @@ class Calculator {
         return number % 2 == 0;
     }
     double compare() {
-        if (a > b) {
+        if (a - b > 0) {
             return a;
+        }else if (a == b){
+            return a - b;
         } else {
             return b;
         }
