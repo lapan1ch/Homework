@@ -41,10 +41,11 @@ public class Calct {
         return first; // Или можно написать return second; - если оба числа равны между собой, то вернуть можно любое из них.
     }
     public int maxOfThree(int first, int second, int third) {
-        if (first >= second && first >= third) {
-            return first;
-        } else if (second >= first && second >= third) {
-            return second;
+        int max = first;
+          if (second > max) {
+            max = second;
+        }  if (third > max) {
+            return max;
         } else {
             return third;
         }

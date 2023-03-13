@@ -4,7 +4,7 @@ public class LightColorDetectTest {
     public static void main(String[] args) {
         LightColorDetect lightColorDetect = new LightColorDetect();
         String expectedResult = new String("Red");
-        String actualResult = lightColorDetect.detect(900);
+        String actualResult = lightColorDetect.detect(1);
         if (expectedResult.equals(actualResult)){
             System.out.println("Test = OK");
         }else {

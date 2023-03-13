@@ -24,5 +24,12 @@ public class FzzBzzTest {
         } else {
             System.out.println("Test 3 = false");
         }
+        String expectedResult4 = "FzzBzz";
+        String actualResult4 = fzzBzz.detect(60);
+        if (expectedResult4.equals(actualResult4)) {
+            System.out.println("Test 4 = OK");
+        } else {
+            System.out.println("Test 4 = false");
+        }
     }
 }
