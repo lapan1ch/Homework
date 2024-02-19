@@ -1,4 +1,4 @@
-package JavaPro;
+package JavaPro.homework1;
 
 public class PersonDemo {
 
