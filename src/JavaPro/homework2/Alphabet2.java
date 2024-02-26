@@ -15,7 +15,7 @@ public class Alphabet2 extends Alphabet{
     @Override
     public void printAlphabet() {
         super.printAlphabet();
-        System.out.println("Russian alphabet letters ");
+        System.out.println("Russian alphabet letters :");
         for (String letter : letters) {
             System.out.print(letter + " ");
         }

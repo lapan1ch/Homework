@@ -16,7 +16,7 @@ public class Alphabet3 extends Alphabet {
     @Override
     public void printAlphabet() {
         super.printAlphabet();
-        System.out.println("English small alphabet letters ");
+        System.out.println("English small alphabet letters :");
         for (String letter : letters) {
             System.out.print(letter + " ");
         }
