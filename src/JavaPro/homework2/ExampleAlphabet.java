@@ -1,10 +1,10 @@
 package JavaPro.homework2;
 
 
+import java.util.concurrent.atomic.AtomicReferenceArray;
 
 public class ExampleAlphabet {
 
-    private static Alphabet[] alphabets;
 
     public static void main(String[] args) {
 
