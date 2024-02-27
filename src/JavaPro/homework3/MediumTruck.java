@@ -6,6 +6,9 @@ public class MediumTruck extends Truck{
 
   private Product[] products; // Массив для хранения загруженных продуктов
 
+  private int currentCapacity;
+
+  private int maxCapacity;
   public MediumTruck() {
     super("medium", 6,4); // Максимальный объем для среднего трака: 6 товаров
     products = new Product[maxCapacity];

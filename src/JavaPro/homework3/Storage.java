@@ -33,7 +33,16 @@ package JavaPro.homework3;
             }
         }
 
-        public void displayProductsInStorage() {
+
+        public void displayProductsInStorage() {System.out.println("Продукты на складе отправления:");
+            for (int i = 0; i < dispatchCount; i++) {
+                System.out.println(dispatchStorage[i].getName());
+            }
+
+            System.out.println("Продукты на складе доставки:");
+            for (int i = 0; i < deliveryCount; i++) {
+                System.out.println(deliveryStorage[i].getName());
+            }
         }
     }
 

@@ -5,8 +5,10 @@ class BigTruck extends Truck {
     private Product[] products;
     private int currentCapacity;
 
+    private int maxCapacity;
+
     public BigTruck() {
-        super("big", 10,8); // Максимальный объем для большого трака: 10 товаров
+        super("big", 10, 8); // Максимальный объем для большого трака: 10 товаров
         products = new Product[maxCapacity];
     }
 
@@ -31,10 +33,10 @@ class BigTruck extends Truck {
     }
 
     @Override
-    public void displayProductsInTruck () {
-            System.out.println("Список продуктов в большом траке:");
-            for (int i = 0; i < currentCapacity; i++) {
-                System.out.println(products[i].getName());
-            }
+    public void displayProductsInTruck() {
+        System.out.println("Список продуктов в большом траке:");
+        for (int i = 0; i < currentCapacity; i++) {
+            System.out.println(products[i].getName());
         }
     }
+}

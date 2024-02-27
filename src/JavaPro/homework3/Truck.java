@@ -14,10 +14,6 @@ package JavaPro.homework3;
              this.currentCapacity = currentCapacity;
          }
 
-         public Truck(String type, int maxCapacity) {
-             this.type = type;
-             this.maxCapacity = maxCapacity;
-         }
 
          // Метод загрузки товаров в трак
          public abstract void loadTruck(Product product);
@@ -25,9 +21,9 @@ package JavaPro.homework3;
          // Метод разгрузки товаров из трака
          public abstract void unloadTruck(Storage deliveryStorage);
 
-         // Метод для вывода списка продуктов в траке
+         // Метод для вывода списка продуктов на складе
          public void displayProductsInStorage() {
          }
-
+         // Метод для вызова списка продуктов в траке
          public abstract void displayProductsInTruck();
      }

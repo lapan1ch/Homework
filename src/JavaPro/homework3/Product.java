@@ -1,13 +1,13 @@
 package JavaPro.homework3;
 
-  class BookProduct extends Product{
+abstract class Product {
+    private String name;
 
-      public BookProduct(String name) {
-          super(name);
-      }
+    public Product(String name) {
+        this.name = name;
+    }
 
-      @Override
-      public String getName() {
-          return super.getName();
-      }
-  }
+    public String getName() {
+        return name;
+    }
+}

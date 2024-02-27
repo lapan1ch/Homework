@@ -4,9 +4,13 @@ public class SmallTruck extends Truck{
 
     private  Product[] products; // Массив для хранения загруженных продуктов
 
+    private int currentCapacity;
+
+    private int maxCapacity;
+
     public SmallTruck() {
         super("small", 4,2); // Максимальный объем для маленького трака: 4 товара
-
+       products = new Product[maxCapacity];
     }
 
     @Override
