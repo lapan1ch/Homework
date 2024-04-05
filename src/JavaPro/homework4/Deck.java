@@ -1,19 +1,23 @@
 package JavaPro.homework4;
 
+import java.io.OptionalDataException;
 import java.util.Random;
 
 public class Deck {
 
      private final Card[] cards;
-     private int currrentCardIndex;
+     
      private int currentCardIndex;
+     int numberOfCards;
+
+
 
      public Deck() {
           cards = new Card[Suit.values().length * Rank.values().length];
-          int currentCardIndex = 0;
+          currentCardIndex = 0;
           int index = 0;
-          for (Rank rank : Rank.values()) {
-               for (Suit suit : Suit.values()) {
+          for (Suit suit : Suit.values()) {
+               for (Rank rank : Rank.values()) {
                     cards[index++] = new Card(suit, rank);
                }
           }
